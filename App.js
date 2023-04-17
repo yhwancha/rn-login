@@ -1,5 +1,6 @@
 import React from 'react';
-import {Text, View} from 'react-native';
+import { Text, View } from 'react-native';
+import SignInScreen from './src/screens/SignInScreen';
 
 const HelloWorldApp = () => {
   return (
@@ -9,7 +10,7 @@ const HelloWorldApp = () => {
         justifyContent: 'center',
         alignItems: 'center',
       }}>
-      <Text>Hello, world!</Text>
+      <SignInScreen></SignInScreen>
     </View>
   );
 };
