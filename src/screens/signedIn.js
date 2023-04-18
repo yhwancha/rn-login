@@ -1,10 +1,9 @@
-import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
-export default SignInScreen = () => {
+export const SignedIn = () => {
   return (
     <View style={styles.baseText}>
-      <Text style={styles.baseText}>sign in</Text>
+      <Text style={styles.baseText}>login success! welcome</Text>
     </View>
   )
 };
